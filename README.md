@@ -79,7 +79,3 @@ chmod +x do_lipidblockage.sh
 
 This will copy scripts from `../1/` into each replicate folder, run analyses, generate plots with gnuplot, and convert `.ps` files to `.pdf`.
 
-## Notes
-
-- The batch script preserves your original file names (some are Turkish). If you want a cleaner public repo, we can rename everything to English and update calls consistently.
-- MDAnalysis atom **indices** are 0-based internally; selection strings like `index 9735 to 25074` follow MDAnalysis selection syntax. Double-check against your system.
